@@ -11,6 +11,7 @@ function Plans() {
             <img className='row-span-3 object-cover w-full h-screen p-2' src='https://images.pexels.com/photos/2041928/pexels-photo-2041928.jpeg?auto=compress&cs=tinysrgb&w=600' alt='' />
             <img className='row-span-2 object-cover w-full h-screen p-2' src='https://images.pexels.com/photos/3556117/pexels-photo-3556117.jpeg?auto=compress&cs=tinysrgb&w=600' alt='' />
         </div>
+
         {/* Right side */}
         <div className='flex flex-col justify-center h-full'>
             <h3 className='text-5xl md:text-6xl font-bold'>Plan Your Next Trip</h3>
