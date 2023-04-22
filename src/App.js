@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Hero from "./components/Hero" 
 import ImageSlider from "./components/ImageSlider";
 import Navbar from "./components/Navbar";
@@ -14,6 +15,7 @@ import Rooms from "./components/Rooms";
       <Plans />
       <Rooms />
       <ImageSlider />
+      <Footer />
     </div>
   )
 }
