@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import {BsChevronCompactLeft}  from 'react-icons/bs'
 import {BsChevronCompactRight}  from 'react-icons/bs'
+import {RxDotFilled}  from 'react-icons/rx'
 
 function ImageSlider() {
 
@@ -36,7 +37,13 @@ function ImageSlider() {
     };
 
     const nextSlide = () => {
-        
+        const isLastSlide = currentIndex === slides.length -1;
+        const newIndex = isLastSlide ? 0 :currentIndex +1;
+        setCurrentIndex(newIndex);
+    };
+
+    const goToSlide = (slideIndex) => {
+        setCurrentIndex(slideIndex)
     }
   return (
     <div className='max-width-[1400px] h-[580px] w-full m-auto py-16 px-4 relative group'>
@@ -54,7 +61,15 @@ function ImageSlider() {
         <BsChevronCompactRight onClick={nextSlide} size={30} />
         </div>
 
-        
+        <div className='flex top-4 justify-center py-2'>
+            {slides.map((slide, slideIndex) => (
+                <div className='cursor-pointer text-2xl' key={slideIndex} onClick={() => goToSlide(slideIndex)}>
+                    <RxDotFilled />
+                </div>
+                
+            ))}
+
+        </div>
     </div>
   )
 }
