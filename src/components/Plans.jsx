@@ -4,7 +4,7 @@ function Plans() {
   return (
     <div className='max-w-[1400px] m-auto py-16 px-4 grid lg:grid-cols-2 gap-4'>
         {/* leftside */}
-        <div className='grid grid-cols-2 grid-rows-6 h-[80vh]'>
+        <div className='grid grid-cols-2 cols-span-2 gap-2'>
             <img className='row-span-3 object-cover w-full h-screen p-2' src='https://images.pexels.com/photos/2677831/pexels-photo-2677831.jpeg?auto=compress&cs=tinysrgb&w=600' alt='' />
             <img className='row-span-2 object-cover w-full h-screen p-2' src='https://images.pexels.com/photos/1998439/pexels-photo-1998439.jpeg?auto=compress&cs=tinysrgb&w=600' alt='' />
             <img className='row-span-2 object-cover w-full h-screen p-2' src='https://images.pexels.com/photos/175717/pexels-photo-175717.jpeg?auto=compress&cs=tinysrgb&w=600' alt='' />
