@@ -39,10 +39,7 @@ function Plans  ()  {
           nam?
         </p>
         <p className='pb-6'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-          voluptates nostrum dolorum reprehenderit error! Doloribus est illo
-          eius saepe? Molestias sapiente perspiciatis doloribus consectetur
-          nihil facilis aliquid eaque vel quisquam.
+        Introducing the perfect travel and food app! Explore beaches, gateways, and mouth-watering dishes from around the world. Discover hidden gems, read reviews, browse photos, and plan your dream vacation with ease. Download now and start exploring!
         </p>
         <div>
           <button className='border-black mr-4 hover:shadow-xl'>
